@@ -1,4 +1,4 @@
-namefile = logfile.txt
+namefile = 'logfile.txt'
 try: 
     with open(namefile, "r", encoding="utf-8") as f:
         for riga in f:
