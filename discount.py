@@ -20,4 +20,6 @@ while True:
     isPet.append(t == "Y")
 
 sconto = discount(prices, isPet)
+
 print("Sconto:", round(sconto, 2), "euro")
+print("Numero totale articoli:", len(prices))
