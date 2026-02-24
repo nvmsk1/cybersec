@@ -10,7 +10,6 @@ def calcola_tasse(reddito):
 
     return tasse
 
-
 reddito = float(input("reddito lordo: "))
 
 tasse = calcola_tasse(reddito)
